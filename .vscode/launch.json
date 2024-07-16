@@ -8,7 +8,7 @@
             "type": "chrome",
             "request": "launch",
             "name": "Open CPF.html",
-            "file": "/home/estudante1/Documentos/sp309166x/Projeto_flask/Exercícios/CPF.html"
+            "file": "/home/estudante1/Documents/sp309166x/Projeto_flask/Exercícios/CPF.html"
         }
     ]
 }

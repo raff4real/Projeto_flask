@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h2>Resultado</h2>
+<p>{{ tipo }}: {{ documento }}</p>
+{% if valido is not none %}
+    <p>Validade: {{ 'Válido' if valido else 'Inválido' }}</p>
+{% endif %}
+<a href="{{ url_for('index') }}">Voltar ao Início</a>
+{% endblock %}
